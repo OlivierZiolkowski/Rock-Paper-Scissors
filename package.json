@@ -1,0 +1,18 @@
+{
+  "name": "rock-paper-scissors-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.1"
+  }
+}
