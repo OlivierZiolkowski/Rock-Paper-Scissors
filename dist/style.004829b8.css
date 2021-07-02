@@ -443,4 +443,13 @@ header .score-box__total {
   }
 }
 
+.gameboard__item {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: url("/icon-paper.b341adcb.svg") no-repeat center, white;
+  border: solid 1rem #5671f5;
+  box-shadow: 0px 5px 0px #4865f4, 0px 5px 0px #d3d7df inset;
+}
+
 /*# sourceMappingURL=/style.004829b8.css.map */

@@ -1,0 +1,9 @@
+.gameboard__item {
+    width: 115px;
+    height: 115px;
+    border-radius: $bd-radius-circle;
+    background: url('../../assets/images/icon-paper.svg') no-repeat center,
+                $c-light;
+    border: solid 1rem $c-paper-light;
+    box-shadow: 0px 5px 0px $c-paper-dark, 0px 5px 0px lighten($c-header-outline, 40%) inset;
+}
