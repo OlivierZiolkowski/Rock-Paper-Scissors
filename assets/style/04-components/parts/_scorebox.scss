@@ -1,0 +1,45 @@
+// Score-box block on header
+header .score-box {
+    background-color: $c-light;
+    width: 20%;
+    height: 100%;
+    border-radius: $bd-radius-lg;
+    padding: 0.5rem 0;
+
+    //* Inside elements
+    &__title,
+    &__total {
+        margin: 0.25rem 0;
+        text-align: center;
+        line-height: 1;
+        font-weight: 700;
+    }
+
+    // Title of the block
+    &__title {
+        color: $c-score;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    
+    // Total score
+    &__total {
+        color: $c-dark;
+        font-size: 48px;
+    }
+
+    //* Media queries
+    @include mobile {
+        width: 30%;
+        border-radius: $bd-radius-sm;
+
+        &__title {
+            font-size: 10px;
+        }
+
+        &__total {
+            font-size: 38px;
+        }
+    }
+}

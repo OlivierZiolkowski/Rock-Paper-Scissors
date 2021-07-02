@@ -1,0 +1,25 @@
+/*---------------------------------------------
+| This is the main file who retrieves each    |
+| style files per directory in assets/style.  |
+|                                             |
+| Files are calling in a specific order from  |
+| general settings to specific components.    |
+|              /!\ RESPECT IT ! /!\           |
+---------------------------------------------*/
+
+
+// Utils
+// =====================
+@import './01-utils/utils';
+
+// Base
+// =====================
+@import './02-base/base';
+
+// Layouts
+// =====================
+@import './03-layouts/layouts';
+
+// Components
+// =====================
+@import './04-components/components';

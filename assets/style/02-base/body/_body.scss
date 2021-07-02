@@ -1,0 +1,10 @@
+// Defines general settings for body container
+
+body {
+    box-sizing: border-box;
+    background: radial-gradient(circle at top, $c-radial-light 0%, $c-radial-dark 75%);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: $c-light;
+}
