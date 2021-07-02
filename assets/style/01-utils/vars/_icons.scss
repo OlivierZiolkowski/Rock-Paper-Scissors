@@ -3,18 +3,24 @@ $icons: (
         "class-name": "paper",
         "url": '../../assets/images/icon-paper.svg',
         "light-color": $c-paper-light,
-        "dark-color": $c-paper-dark
+        "dark-color": $c-paper-dark,
+        "top": 0,
+        "left": 0,
         ),
     scissors: (
         "class-name": "scissors",
         "url": '../../assets/images/icon-scissors.svg',
         "light-color": $c-scissors-light,
-        "dark-color": $c-scissors-dark
+        "dark-color": $c-scissors-dark,
+        "top": 0,
+        "right": 0,
         ),
     rock: (
         "class-name": "rock",
         "url": '../../assets/images/icon-rock.svg',
         "light-color": $c-rock-light,
-        "dark-color": $c-rock-dark
+        "dark-color": $c-rock-dark,
+        "bottom": 0,
+        "left": 100px,
         )
 );

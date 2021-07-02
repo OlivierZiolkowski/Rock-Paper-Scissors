@@ -1,0 +1,14 @@
+// Rules for gameboard
+.gameboard {
+    background: url('../../assets/images/bg-triangle.svg') center no-repeat;
+    position: relative;
+    width: 305px;
+    height: 277px;
+    margin: auto;
+
+    // Media queries
+    @include mobile {
+
+    }
+
+}

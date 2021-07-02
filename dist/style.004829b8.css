@@ -402,6 +402,13 @@ header .main-title h1 {
   }
 }
 
+.gameboard {
+  background: url("/bg-triangle.3b1980cd.svg") center no-repeat;
+  position: relative;
+  width: 305px;
+  height: 277px;
+  margin: auto;
+}
 /*-----------------------------------------------
 | The "components" directory contains settings  |
 | for specific elements like a button, a card   |
@@ -451,10 +458,11 @@ header .score-box__total {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
 .gameboard__item.paper {
   background: linear-gradient(210deg, #5671f5, #4865f4);
-  box-shadow: 0px 5px 0px #0a24a9;
+  box-shadow: 0px 5px 0px #0d2fd9;
 }
 .gameboard__item.paper .gameboard__logo {
   box-shadow: 0px 5px 0px #d3d7df inset;
@@ -465,7 +473,7 @@ header .score-box__total {
 }
 .gameboard__item.scissors {
   background: linear-gradient(210deg, #eca922, #ec9e0e);
-  box-shadow: 0px 5px 0px #6c4b09;
+  box-shadow: 0px 5px 0px #9b6c0d;
 }
 .gameboard__item.scissors .gameboard__logo {
   box-shadow: 0px 5px 0px #d3d7df inset;
@@ -476,7 +484,7 @@ header .score-box__total {
 }
 .gameboard__item.rock {
   background: linear-gradient(210deg, #dd405d, #dc2e4e);
-  box-shadow: 0px 5px 0px #711425;
+  box-shadow: 0px 5px 0px #9c1c33;
 }
 .gameboard__item.rock .gameboard__logo {
   box-shadow: 0px 5px 0px #d3d7df inset;

@@ -3,12 +3,20 @@
     // See css rules in 'mixins/_game-items.scss'
     @include game-item;
 
+    $position-list: (top: "top", left: "left",bottom: "bottom", right: "right");
 
     //Create a loop on $icons map variable
     @each $key, $value in $icons {
         &.#{$key} {
             background: linear-gradient(210deg, map-get($value, "light-color"), map-get($value, "dark-color"));
-            box-shadow: 0px 5px 0px darken(map-get($value, "light-color"), 30%);
+            box-shadow: 0px 5px 0px darken(map-get($value, "light-color"), 20%);
+
+            // TODO - Rules for display position (if exists)
+            @each $position, $property in $position-list {
+                @if map-get($value, $position) {
+                    $position: map-get($value, $property);
+                }
+            }
 
 
             .gameboard__logo {
