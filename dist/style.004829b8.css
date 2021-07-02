@@ -444,12 +444,46 @@ header .score-box__total {
 }
 
 .gameboard__item {
-  width: 115px;
-  height: 115px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameboard__item.paper {
+  background: linear-gradient(210deg, #5671f5, #4865f4);
+  box-shadow: 0px 5px 0px #0a24a9;
+}
+.gameboard__item.paper .gameboard__logo {
+  box-shadow: 0px 5px 0px #d3d7df inset;
+  width: 75%;
+  height: 75%;
   border-radius: 50%;
   background: url("/icon-paper.b341adcb.svg") no-repeat center, white;
-  border: solid 1rem #5671f5;
-  box-shadow: 0px 5px 0px #4865f4, 0px 5px 0px #d3d7df inset;
+}
+.gameboard__item.scissors {
+  background: linear-gradient(210deg, #eca922, #ec9e0e);
+  box-shadow: 0px 5px 0px #6c4b09;
+}
+.gameboard__item.scissors .gameboard__logo {
+  box-shadow: 0px 5px 0px #d3d7df inset;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  background: url("/icon-scissors.6ae2d09a.svg") no-repeat center, white;
+}
+.gameboard__item.rock {
+  background: linear-gradient(210deg, #dd405d, #dc2e4e);
+  box-shadow: 0px 5px 0px #711425;
+}
+.gameboard__item.rock .gameboard__logo {
+  box-shadow: 0px 5px 0px #d3d7df inset;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  background: url("/icon-rock.ac7281b8.svg") no-repeat center, white;
 }
 
 /*# sourceMappingURL=/style.004829b8.css.map */

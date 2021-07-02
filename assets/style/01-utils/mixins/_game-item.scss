@@ -1,0 +1,16 @@
+@mixin game-item {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: $bd-radius-circle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin game-logo {
+    box-shadow: 0px 5px 0px lighten($c-header-outline, 40%) inset;
+    width: 75%;
+    height: 75%;
+    border-radius: $bd-radius-circle;
+}

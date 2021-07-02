@@ -1,9 +1,22 @@
+// Create each item from loop
 .gameboard__item {
-    width: 115px;
-    height: 115px;
-    border-radius: $bd-radius-circle;
-    background: url('../../assets/images/icon-paper.svg') no-repeat center,
+    // See css rules in 'mixins/_game-items.scss'
+    @include game-item;
+
+
+    //Create a loop on $icons map variable
+    @each $key, $value in $icons {
+        &.#{$key} {
+            background: linear-gradient(210deg, map-get($value, "light-color"), map-get($value, "dark-color"));
+            box-shadow: 0px 5px 0px darken(map-get($value, "light-color"), 30%);
+
+
+            .gameboard__logo {
+                // See css rules in 'mixins/_game-items.scss'
+                @include game-logo;
+                background: url(map-get($value, "url")) no-repeat center,
                 $c-light;
-    border: solid 1rem $c-paper-light;
-    box-shadow: 0px 5px 0px $c-paper-dark, 0px 5px 0px lighten($c-header-outline, 40%) inset;
+            }
+        }
+    }
 }
