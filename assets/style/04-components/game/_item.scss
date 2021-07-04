@@ -3,27 +3,48 @@
     // See css rules in 'mixins/_game-items.scss'
     @include game-item;
 
-    $position-list: (top: "top", left: "left",bottom: "bottom", right: "right");
+    $position-list: (top: "top", left: "left", bottom: "bottom", right: "right");
 
     //Create a loop on $icons map variable
-    @each $key, $value in $icons {
+    @each $key,
+    $value in $icons {
         &.#{$key} {
             background: linear-gradient(210deg, map-get($value, "light-color"), map-get($value, "dark-color"));
-            box-shadow: 0px 5px 0px darken(map-get($value, "light-color"), 20%);
+            box-shadow: 0px 8px 0px darken(map-get($value, "light-color"), 20%);
 
-            // TODO - Rules for display position (if exists)
-            @each $position, $property in $position-list {
-                @if map-get($value, $position) {
-                    $position: map-get($value, $property);
+            // Rules for display position (if exists)
+            @if map-get($value, top) {
+                top: map-get($value, top);
+            }
+
+            @else if map-get($value, bottom) {
+                bottom: map-get($value, bottom);
+            }
+
+            @if map-get($value, left) {
+                left: map-get($value, left);
+                // Specific rules for rock item
+                @if map-get($value, left)==0 {
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
             }
 
+            @else if map-get($value, right) {
+                right: map-get($value, right);
+            }
+
+            // Media queries
+            @include mobile {
+                box-shadow: 0px 4px 0px darken(map-get($value, "light-color"), 20%);
+            }
 
             .gameboard__logo {
                 // See css rules in 'mixins/_game-items.scss'
                 @include game-logo;
-                background: url(map-get($value, "url")) no-repeat center,
-                $c-light;
+                background: url(map-get($value, "url")) no-repeat center/45%,
+                    $c-light;
             }
         }
     }

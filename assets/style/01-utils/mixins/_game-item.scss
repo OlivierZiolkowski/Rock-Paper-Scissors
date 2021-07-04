@@ -1,17 +1,27 @@
 @mixin game-item {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     position: relative;
     border-radius: $bd-radius-circle;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
+
+    @include mobile {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @mixin game-logo {
-    box-shadow: 0px 5px 0px lighten($c-header-outline, 40%) inset;
-    width: 75%;
-    height: 75%;
+    box-shadow: 0px 8px 0px lighten($c-header-outline, 40%) inset;
+    width: 80%;
+    height: 80%;
     border-radius: $bd-radius-circle;
+
+    @include mobile {
+        box-shadow: 0px 4px 0px lighten($c-header-outline, 40%) inset;
+
+    }
 }

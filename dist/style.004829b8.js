@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\bg-triangle.svg":[["bg-triangle.3b1980cd.svg","assets/images/bg-triangle.svg"],"assets/images/bg-triangle.svg"],"./..\\images\\icon-paper.svg":[["icon-paper.b341adcb.svg","assets/images/icon-paper.svg"],"assets/images/icon-paper.svg"],"./..\\images\\icon-scissors.svg":[["icon-scissors.6ae2d09a.svg","assets/images/icon-scissors.svg"],"assets/images/icon-scissors.svg"],"./..\\images\\icon-rock.svg":[["icon-rock.ac7281b8.svg","assets/images/icon-rock.svg"],"assets/images/icon-rock.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\images\\bg-triangle.svg":[["bg-triangle.3b1980cd.svg","assets/images/bg-triangle.svg"],"assets/images/bg-triangle.svg"],"C:\\Users\\olivi\\Documents\\Sites\\Challenges\\rock-paper-scissors-master\\assets\\images\\icon-paper.svg":[["icon-paper.b341adcb.svg","assets/images/icon-paper.svg"],"assets/images/icon-paper.svg"],"C:\\Users\\olivi\\Documents\\Sites\\Challenges\\rock-paper-scissors-master\\assets\\images\\icon-scissors.svg":[["icon-scissors.6ae2d09a.svg","assets/images/icon-scissors.svg"],"assets/images/icon-scissors.svg"],"C:\\Users\\olivi\\Documents\\Sites\\Challenges\\rock-paper-scissors-master\\assets\\images\\icon-rock.svg":[["icon-rock.ac7281b8.svg","assets/images/icon-rock.svg"],"assets/images/icon-rock.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53986" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49940" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,14 +1,17 @@
 // Rules for gameboard
 .gameboard {
-    background: url('../../assets/images/bg-triangle.svg') center no-repeat;
+    box-sizing: border-box;
+    background: url('../../assets/images/bg-triangle.svg') center/100% no-repeat;
     position: relative;
-    width: 305px;
-    height: 277px;
+    width: 400px;
+    height: 400px;
     margin: auto;
+    margin-top: 90px;
 
     // Media queries
     @include mobile {
-
+        width: 200px;
+        height: 200px;
     }
 
 }

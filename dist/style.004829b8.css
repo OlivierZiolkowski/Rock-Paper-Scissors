@@ -357,9 +357,17 @@ body {
   box-sizing: border-box;
   background: radial-gradient(circle at top, #1f3756 0%, #141539 75%);
   width: 100vw;
+  max-width: 100%;
   height: 100vh;
   font-family: "Barlow Semi Condensed", sans-serif;
   color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1367px;
+  margin: auto;
 }
 
 /*--------------------------------------------
@@ -368,9 +376,10 @@ body {
 | footer, etc...                             |
 --------------------------------------------*/
 header {
-  width: 40%;
+  box-sizing: border-box;
+  width: 50%;
   margin: 2rem auto;
-  padding: 0.75rem 1.25rem;
+  padding: 0.85rem 1.25rem;
   border: solid 3px #606e85;
   border-radius: 10px;
   display: flex;
@@ -403,12 +412,21 @@ header .main-title h1 {
 }
 
 .gameboard {
-  background: url("/bg-triangle.3b1980cd.svg") center no-repeat;
+  box-sizing: border-box;
+  background: url("/bg-triangle.3b1980cd.svg") center/100% no-repeat;
   position: relative;
-  width: 305px;
-  height: 277px;
+  width: 400px;
+  height: 400px;
   margin: auto;
+  margin-top: 90px;
 }
+@media screen and (max-width: 376px) {
+  .gameboard {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 /*-----------------------------------------------
 | The "components" directory contains settings  |
 | for specific elements like a button, a card   |
@@ -451,8 +469,8 @@ header .score-box__total {
 }
 
 .gameboard__item {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   position: relative;
   border-radius: 50%;
   display: flex;
@@ -460,38 +478,83 @@ header .score-box__total {
   align-items: center;
   position: absolute;
 }
+@media screen and (max-width: 376px) {
+  .gameboard__item {
+    width: 100px;
+    height: 100px;
+  }
+}
 .gameboard__item.paper {
   background: linear-gradient(210deg, #5671f5, #4865f4);
-  box-shadow: 0px 5px 0px #0d2fd9;
+  box-shadow: 0px 8px 0px #0d2fd9;
+  top: -15%;
+  left: -15%;
+}
+@media screen and (max-width: 376px) {
+  .gameboard__item.paper {
+    box-shadow: 0px 4px 0px #0d2fd9;
+  }
 }
 .gameboard__item.paper .gameboard__logo {
-  box-shadow: 0px 5px 0px #d3d7df inset;
-  width: 75%;
-  height: 75%;
+  box-shadow: 0px 8px 0px #d3d7df inset;
+  width: 80%;
+  height: 80%;
   border-radius: 50%;
-  background: url("/icon-paper.b341adcb.svg") no-repeat center, white;
+  background: url("/icon-paper.b341adcb.svg") no-repeat center/45%, white;
+}
+@media screen and (max-width: 376px) {
+  .gameboard__item.paper .gameboard__logo {
+    box-shadow: 0px 4px 0px #d3d7df inset;
+  }
 }
 .gameboard__item.scissors {
   background: linear-gradient(210deg, #eca922, #ec9e0e);
-  box-shadow: 0px 5px 0px #9b6c0d;
+  box-shadow: 0px 8px 0px #9b6c0d;
+  top: -15%;
+  right: -15%;
+}
+@media screen and (max-width: 376px) {
+  .gameboard__item.scissors {
+    box-shadow: 0px 4px 0px #9b6c0d;
+  }
 }
 .gameboard__item.scissors .gameboard__logo {
-  box-shadow: 0px 5px 0px #d3d7df inset;
-  width: 75%;
-  height: 75%;
+  box-shadow: 0px 8px 0px #d3d7df inset;
+  width: 80%;
+  height: 80%;
   border-radius: 50%;
-  background: url("/icon-scissors.6ae2d09a.svg") no-repeat center, white;
+  background: url("/icon-scissors.6ae2d09a.svg") no-repeat center/45%, white;
+}
+@media screen and (max-width: 376px) {
+  .gameboard__item.scissors .gameboard__logo {
+    box-shadow: 0px 4px 0px #d3d7df inset;
+  }
 }
 .gameboard__item.rock {
   background: linear-gradient(210deg, #dd405d, #dc2e4e);
-  box-shadow: 0px 5px 0px #9c1c33;
+  box-shadow: 0px 8px 0px #9c1c33;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 376px) {
+  .gameboard__item.rock {
+    box-shadow: 0px 4px 0px #9c1c33;
+  }
 }
 .gameboard__item.rock .gameboard__logo {
-  box-shadow: 0px 5px 0px #d3d7df inset;
-  width: 75%;
-  height: 75%;
+  box-shadow: 0px 8px 0px #d3d7df inset;
+  width: 80%;
+  height: 80%;
   border-radius: 50%;
-  background: url("/icon-rock.ac7281b8.svg") no-repeat center, white;
+  background: url("/icon-rock.ac7281b8.svg") no-repeat center/45%, white;
+}
+@media screen and (max-width: 376px) {
+  .gameboard__item.rock .gameboard__logo {
+    box-shadow: 0px 4px 0px #d3d7df inset;
+  }
 }
 
 /*# sourceMappingURL=/style.004829b8.css.map */
