@@ -3,7 +3,7 @@ header {
     //* General header settings
     box-sizing: border-box;
     width: 50%;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 0.85rem 1.25rem;
     border: solid 3px $c-header-outline;
     border-radius: $bd-radius-lg;
@@ -15,13 +15,13 @@ header {
     // Media queries
     @include mobile {
         padding: 0.65rem;
-        width: 70%;
+        width: 80%;
     }
 
     //* Main-title block
     .main-title {
         box-sizing: border-box;
-        width: 4.50rem;
+        width: 4.5rem;
         font-size: 100%;
         padding-left: 0.5rem;
         border-radius: $bd-radius-sm;

@@ -3,15 +3,15 @@
     box-sizing: border-box;
     background: url('../../assets/images/bg-triangle.svg') center/100% no-repeat;
     position: relative;
-    width: 400px;
-    height: 400px;
-    margin: auto;
-    margin-top: 90px;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 3rem;
 
     // Media queries
     @include mobile {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
+        margin-top: 0;
     }
-
 }

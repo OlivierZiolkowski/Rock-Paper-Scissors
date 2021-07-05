@@ -368,6 +368,9 @@ body {
   height: 100%;
   max-width: 1367px;
   margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
 }
 
 /*--------------------------------------------
@@ -378,7 +381,7 @@ body {
 header {
   box-sizing: border-box;
   width: 50%;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0.85rem 1.25rem;
   border: solid 3px #606e85;
   border-radius: 10px;
@@ -390,7 +393,7 @@ header {
 @media screen and (max-width: 376px) {
   header {
     padding: 0.65rem;
-    width: 70%;
+    width: 80%;
   }
 }
 header .main-title {
@@ -415,16 +418,39 @@ header .main-title h1 {
   box-sizing: border-box;
   background: url("/bg-triangle.3b1980cd.svg") center/100% no-repeat;
   position: relative;
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  margin-top: 90px;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 3rem;
 }
 @media screen and (max-width: 376px) {
   .gameboard {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
+    margin-top: 0;
   }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 1367px;
+}
+@media screen and (max-width: 376px) {
+  footer {
+    justify-content: center;
+  }
+}
+footer .rules-button {
+  color: white;
+  border: solid 1px white;
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
 }
 
 /*-----------------------------------------------
@@ -437,10 +463,13 @@ header .score-box {
   width: 20%;
   height: 100%;
   border-radius: 10px;
-  padding: 0.5rem 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 header .score-box__title, header .score-box__total {
-  margin: 0.25rem 0;
+  margin: 0;
   text-align: center;
   line-height: 1;
   font-weight: 700;
@@ -449,11 +478,13 @@ header .score-box__title {
   color: #2a46c0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 16px;
+  margin-top: 0.75rem;
 }
 header .score-box__total {
   color: #3b4363;
-  font-size: 48px;
+  font-size: 56px;
+  margin-bottom: 0.75rem;
 }
 @media screen and (max-width: 376px) {
   header .score-box {
@@ -480,8 +511,8 @@ header .score-box__total {
 }
 @media screen and (max-width: 376px) {
   .gameboard__item {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
   }
 }
 .gameboard__item.paper {

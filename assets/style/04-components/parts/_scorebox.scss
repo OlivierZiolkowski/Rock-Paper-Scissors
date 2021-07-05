@@ -4,12 +4,15 @@ header .score-box {
     width: 20%;
     height: 100%;
     border-radius: $bd-radius-lg;
-    padding: 0.5rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 
     //* Inside elements
     &__title,
     &__total {
-        margin: 0.25rem 0;
+        margin: 0;
         text-align: center;
         line-height: 1;
         font-weight: 700;
@@ -20,13 +23,16 @@ header .score-box {
         color: $c-score;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 12px;
+        font-size: 16px;
+        margin-top: .75rem;
     }
     
     // Total score
     &__total {
         color: $c-dark;
-        font-size: 48px;
+        font-size: 56px;
+        margin-bottom: .75rem;
+
     }
 
     //* Media queries
