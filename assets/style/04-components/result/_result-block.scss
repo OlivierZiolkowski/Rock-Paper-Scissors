@@ -1,0 +1,35 @@
+.gr-infos {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    @include mobile {
+        order: 3;
+    }
+
+    &__title,
+    &__button {
+        text-transform: uppercase;
+    }
+
+    &__title {
+        font-size: 48px;
+        margin: 1rem 0;
+    }
+
+    &__button {
+        background-color: $c-light;
+        border-radius: $bd-radius-lg;
+        padding: 5% 25%;
+        color: $c-dark;
+        text-decoration: none;
+        transition: color .6s ease;
+
+        &:hover {
+            color: $c-rock-light;
+            transition: color .6s ease;
+        }
+    }
+
+    display: none;
+
+}

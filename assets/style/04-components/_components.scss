@@ -8,9 +8,14 @@
 // ====================
 @import './parts/scorebox';
 
-// Game
+// Gameboard
 // ====================
-@import './game/item';
+@import './gameboard/item';
+
+// Result
+// ====================
+@import './result/item';
+@import './result/result-block';
 
 // Rules-modal
 // ====================
