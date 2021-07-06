@@ -1,0 +1,17 @@
+// Rules for gameboard
+.gameboard {
+    box-sizing: border-box;
+    background: url('../../assets/images/bg-triangle.svg') center/45% no-repeat;
+    width:  calc((#{$w-item} * 2) + (#{$w-item} * 0.5));
+    height: calc((#{$h-item} * 2));
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    // Media queries
+    @include mobile {
+        width: calc(((#{$w-item} / 1.5) * 2) + ((#{$w-item} / 1.5) * 0.5));
+        height: calc(((#{$h-item} / 1.5) * 2));
+    }
+}

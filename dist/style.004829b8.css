@@ -478,19 +478,24 @@ header .main-title h1 {
 
 .gameboard {
   box-sizing: border-box;
-  background: url("/bg-triangle.3b1980cd.svg") center/100% no-repeat;
-  position: relative;
-  width: 350px;
-  height: 350px;
-  margin: 0 auto;
-  margin-top: 3rem;
+  background: url("/bg-triangle.3b1980cd.svg") center/45% no-repeat;
+  width: calc((200px * 2) + (200px * 0.5));
+  height: calc((200px * 2));
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 @media screen and (max-width: 376px) {
   .gameboard {
-    width: 220px;
-    height: 220px;
-    margin-top: 0;
+    width: calc(((200px / 1.5) * 2) + ((200px / 1.5) * 0.5));
+    height: calc(((200px / 1.5) * 2));
   }
+}
+
+.result {
+  width: 100%;
+  height: 300px;
 }
 
 footer {
@@ -562,26 +567,23 @@ header .score-box__total {
 }
 
 .gameboard__item {
-  width: 180px;
-  height: 180px;
-  position: relative;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  cursor: pointer;
 }
 @media screen and (max-width: 376px) {
   .gameboard__item {
-    width: 110px;
-    height: 110px;
+    width: calc(200px / 1.5);
+    height: calc(200px / 1.5);
   }
 }
 .gameboard__item.paper {
   background: linear-gradient(210deg, #5671f5, #4865f4);
   box-shadow: 0px 8px 0px #0d2fd9;
-  top: -15%;
-  left: -15%;
 }
 @media screen and (max-width: 376px) {
   .gameboard__item.paper {
@@ -603,8 +605,6 @@ header .score-box__total {
 .gameboard__item.scissors {
   background: linear-gradient(210deg, #eca922, #ec9e0e);
   box-shadow: 0px 8px 0px #9b6c0d;
-  top: -15%;
-  right: -15%;
 }
 @media screen and (max-width: 376px) {
   .gameboard__item.scissors {
@@ -626,11 +626,6 @@ header .score-box__total {
 .gameboard__item.rock {
   background: linear-gradient(210deg, #dd405d, #dc2e4e);
   box-shadow: 0px 8px 0px #9c1c33;
-  bottom: 5%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 @media screen and (max-width: 376px) {
   .gameboard__item.rock {
