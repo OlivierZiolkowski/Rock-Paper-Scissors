@@ -8,6 +8,9 @@ const infosBlock = document.querySelector(".gr-infos");
 const resultMessage = document.querySelector(".gr-infos__title");
 const replayButton = document.querySelector(".gr-infos__button");
 
+const scoreBox = document.querySelector(".score-box__total");
+let playerScore = 0;
+
 // Retrieves class names of choices items
 const choicesList = [];
 
@@ -20,6 +23,7 @@ const app = {
     init: function() {
         app.playerPick();
         replayButton.addEventListener("click", app.relaunchGame);
+        scoreBox.innerHTML = playerScore;
     },
     playerPick: function() {
         // Récupère la liste des items
@@ -30,12 +34,12 @@ const app = {
     },
     launchGame: function(clickedItem) {
         playerChoice = clickedItem.path[1].classList[1];
-        gameboard.style.left = "-100%";
-        gameboard.style.display = "none";
+        gameboard.style.left = "-200%";
+        gameboard.style.opactity = 0;
         gameboard.style.transition = "all 0.6s ease-in-out";
 
         resultBoard.style.right = "0";
-        resultBoard.style.display = "flex";
+        resultBoard.style.opacity = 1;
         resultBoard.style.transition = "all 0.6s ease-in-out";
 
         playerPick.classList.add(playerChoice);
@@ -59,6 +63,8 @@ const app = {
             (computerPick.classList[1] === "rock" && playerPick.classList[1] === "paper")
         ) {
             resultMessage.innerHTML = "you win";
+            playerScore ++;
+            scoreBox.innerHTML = playerScore;
         } 
         // Losing conditions
         else if(
@@ -77,14 +83,14 @@ const app = {
         infosBlock.style.display = "flex";
     },
     relaunchGame: function() {
+        gameboard.style.left = 0;
+        gameboard.style.opacity = 1;
+        gameboard.style.transition = "all 0.6s ease-in-out";
         playerPick.classList.remove("paper", "scissors", "rock");
         computerPick.classList.remove("paper", "scissors", "rock");
-        gameboard.style.left = 0;
-        gameboard.style.display = "flex";
-        gameboard.style.transition = "all 0.6s ease-in-out";
 
-        resultBoard.style.right = "-100%";
-        resultBoard.style.display = "none";
+        resultBoard.style.right = "-200%";
+        resultBoard.style.opacity = 0;
         resultBoard.style.transition = "all 0.6s ease-in-out";
     }
 }

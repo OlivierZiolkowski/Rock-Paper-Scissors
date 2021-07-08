@@ -2,10 +2,12 @@
   "name": "rock-paper-scissors-master",
   "version": "1.0.0",
   "description": "![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
   "scripts": {
-    "serve": "parcel index.html",
-    "build": "parcel build index.html"
+    "serve": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "sass": "sass assets/style/style.scss style.css",
+    "dev": "yarn sass && yarn serve",
+    "prod": "yarn sass && yarn build"
   },
   "keywords": [],
   "author": "",

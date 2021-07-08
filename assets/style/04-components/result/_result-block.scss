@@ -1,5 +1,5 @@
 .gr-infos {
-    display: flex;
+    display: none;
     flex-flow: column nowrap;
     align-items: center;
     @include mobile {
@@ -19,7 +19,8 @@
     &__button {
         background-color: $c-light;
         border-radius: $bd-radius-lg;
-        padding: 5% 25%;
+        width: 5rem;
+        padding: 7% 25%;
         color: $c-dark;
         text-decoration: none;
         transition: color .6s ease;
@@ -29,7 +30,4 @@
             transition: color .6s ease;
         }
     }
-
-    display: none;
-
 }

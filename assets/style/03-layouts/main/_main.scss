@@ -4,5 +4,6 @@ main {
     position: relative;
     width: 100%;
     max-width: map-get($breakpoints, lg);
-    height: 50%;
+    height: 60%;
+    overflow: hidden;
 }

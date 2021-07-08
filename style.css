@@ -482,12 +482,13 @@ main {
   position: relative;
   width: 100%;
   max-width: 1367px;
-  height: 50%;
+  height: 60%;
+  overflow: hidden;
 }
 
 .gameboard {
   box-sizing: border-box;
-  background: url("/bg-triangle.3b1980cd.svg") center/45% no-repeat;
+  background: url("~/assets/images/bg-triangle.svg") center/45% no-repeat;
   width: calc((200px * 2) + (200px * 0.5));
   height: calc((200px * 2));
   margin: auto;
@@ -511,6 +512,7 @@ main {
 .game-result {
   width: 60%;
   margin: auto;
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
@@ -520,13 +522,11 @@ main {
   right: -200%;
   bottom: 0;
   margin: auto;
-  display: none;
 }
 @media screen and (max-width: 376px) {
   .game-result {
     width: 90%;
     height: auto;
-    right: -400px;
   }
 }
 
@@ -629,7 +629,7 @@ header .score-box__total {
   }
 }
 .gameboard__item.paper .gameboard__logo {
-  background: url("/icon-paper.b341adcb.svg") no-repeat center/45%, white;
+  background: url("~/assets/images/icon-paper.svg") no-repeat center/45%, white;
   box-shadow: 0px 8px 0px #d3d7df inset;
 }
 @media screen and (max-width: 376px) {
@@ -647,7 +647,7 @@ header .score-box__total {
   }
 }
 .gameboard__item.scissors .gameboard__logo {
-  background: url("/icon-scissors.6ae2d09a.svg") no-repeat center/45%, white;
+  background: url("~/assets/images/icon-scissors.svg") no-repeat center/45%, white;
   box-shadow: 0px 8px 0px #d3d7df inset;
 }
 @media screen and (max-width: 376px) {
@@ -665,7 +665,7 @@ header .score-box__total {
   }
 }
 .gameboard__item.rock .gameboard__logo {
-  background: url("/icon-rock.ac7281b8.svg") no-repeat center/45%, white;
+  background: url("~/assets/images/icon-rock.svg") no-repeat center/45%, white;
   box-shadow: 0px 8px 0px #d3d7df inset;
 }
 @media screen and (max-width: 376px) {
@@ -691,10 +691,9 @@ header .score-box__total {
 }
 
 .gr-infos {
-  display: flex;
+  display: none;
   flex-flow: column nowrap;
   align-items: center;
-  display: none;
 }
 @media screen and (max-width: 376px) {
   .gr-infos {
@@ -711,7 +710,8 @@ header .score-box__total {
 .gr-infos__button {
   background-color: white;
   border-radius: 10px;
-  padding: 5% 25%;
+  width: 5rem;
+  padding: 7% 25%;
   color: #3b4363;
   text-decoration: none;
   transition: color 0.6s ease;
@@ -776,7 +776,7 @@ header .score-box__total {
   }
 }
 .modal-rules__image {
-  background: url("/image-rules.9fb0debd.svg") center/contain no-repeat;
+  background: url("~/assets/images/image-rules.svg") center/contain no-repeat;
   order: 2;
   width: 80%;
   height: 80%;
@@ -792,7 +792,7 @@ header .score-box__total {
   margin: 0;
   order: 1;
   cursor: pointer;
-  background: url("/icons8-effacer.60a9a534.svg") no-repeat center/contain;
+  background: url("~/assets/images/icons8-effacer.svg") no-repeat center/contain;
   width: 24px;
   height: 24px;
 }
@@ -802,4 +802,4 @@ header .score-box__total {
   }
 }
 
-/*# sourceMappingURL=/style.004829b8.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,7 @@
 .game-result {
     width: 60%;
     margin: auto;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
@@ -10,11 +11,9 @@
     right: -200%;
     bottom: 0;
     margin: auto;
-    display: none;
 
     @include mobile {
         width: 90%;
         height: auto;
-        right: -400px;
     }
 }
