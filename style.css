@@ -482,8 +482,8 @@ main {
   position: relative;
   width: 100%;
   max-width: 1367px;
-  height: 70%;
-  overflow: hidden;
+  height: 80%;
+  overflow-x: hidden;
 }
 
 .gameboard {
