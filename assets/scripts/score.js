@@ -1,5 +1,8 @@
+// Game variable
+let playerScore = 0;
+
 // Handle player's score saved on localStorage
-let savedPlayerScore  = localStorage.getItem("Shifumi") ? localStorage.getItem("Shifumi") : localStorage.setItem("Shifumi", playerScore);
+let savedPlayerScore  = localStorage.getItem("Shifumi") ? localStorage.getItem("Shifumi") : 0;
 
 const score = {
     init: function() {

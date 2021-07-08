@@ -482,7 +482,7 @@ main {
   position: relative;
   width: 100%;
   max-width: 1367px;
-  height: 60%;
+  height: 70%;
   overflow: hidden;
 }
 
@@ -510,7 +510,7 @@ main {
 }
 
 .game-result {
-  width: 60%;
+  width: 65%;
   margin: auto;
   display: flex;
   flex-flow: row wrap;
@@ -599,6 +599,7 @@ header .score-box__total {
 }
 
 .gameboard__item {
+  box-sizing: border-box;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -719,6 +720,73 @@ header .score-box__total {
 .gr-infos__button:hover {
   color: #dd405d;
   transition: color 0.6s ease;
+}
+
+.win {
+  position: relative;
+}
+.win .gameboard__logo:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  width: calc(200px + (200px * 0.5));
+  height: calc(200px + (200px * 0.5));
+  margin-top: calc((-200px + (-200px * 0.5)) * 0.5);
+  margin-left: calc((-200px + (-200px * 0.5)) * 0.5);
+  z-index: -1;
+  background: #1f3756;
+}
+@media screen and (max-width: 376px) {
+  .win .gameboard__logo:after {
+    width: calc((200px / 1.5) + ((200px / 1.5) * 0.2));
+    height: calc((200px / 1.5) + ((200px / 1.5) * 0.2));
+    margin-top: calc((-200px / 1.5) + ((-200px / 1.5) * 0.2) * -2);
+    margin-left: calc(((-200px / 1.5) + ((-200px / 1.5) * 0.2)) * 0.5);
+  }
+}
+.win:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  width: calc(200px + (200px * 1));
+  height: calc(200px + (200px * 1));
+  margin-top: calc((-200px + (-200px * 1)) * 0.5);
+  margin-left: calc((-200px + (-200px * 1)) * 0.5);
+  z-index: -2;
+  background: #1c324f;
+}
+@media screen and (max-width: 376px) {
+  .win:before {
+    width: calc((200px / 1.5) + ((200px / 1.5) * 0.4));
+    height: calc((200px / 1.5) + ((200px / 1.5) * 0.4));
+    margin-top: calc((-200px / 1.5) + ((-200px / 1.5) * 0.4) * -0.75);
+    margin-left: calc(((-200px / 1.5) + ((-200px / 1.5) * 0.4)) * 0.5);
+  }
+}
+.win:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  width: calc(200px + (200px * 1.5));
+  height: calc(200px + (200px * 1.5));
+  margin-top: calc((-200px + (-200px * 1.5)) * 0.5);
+  margin-left: calc((-200px + (-200px * 1.5)) * 0.5);
+  z-index: -3;
+  background: #1a2d47;
+}
+@media screen and (max-width: 376px) {
+  .win:after {
+    width: calc((200px / 1.5) + ((200px / 1.5) * 0.6));
+    height: calc((200px / 1.5) + ((200px / 1.5) * 0.6));
+    margin-top: calc((-200px / 1.5) + ((-200px / 1.5) * 0.6) * -0.35);
+    margin-left: calc(((-200px / 1.5) + ((-200px / 1.5) * 0.6)) * 0.5);
+  }
 }
 
 .modal-container {

@@ -9,6 +9,7 @@ const rules = {
             (computerPick.classList[1] === "rock" && playerPick.classList[1] === "paper")
         ) {
             resultMessage.innerHTML = "you win";
+            playerPick.classList.add("win");
             score.updateScore();
         } 
         // Losing conditions
@@ -18,6 +19,8 @@ const rules = {
             (computerPick.classList[1] === "rock" && playerPick.classList[1] === "scissors")
         ) {
             resultMessage.innerHTML = "you lose";
+            computerPick.classList.add("win");
+
         }
         // Draw conditions
         else {

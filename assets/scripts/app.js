@@ -7,13 +7,12 @@ const resultMessage = document.querySelector(".gr-infos__title");
 const replayButton = document.querySelector(".gr-infos__button");
 const scoreBox = document.querySelector(".score-box__total");
 
-// Game variables
-let playerScore = 0;
+console.log(gameboardItemsList);
 
 // Retrieves class names of choices items
 const choicesList = [];
 
-// Choices
+// Retrieves tokens place where choices are expected
 const playerPick = document.querySelector("#player-pick");
 const computerPick = document.querySelector("#computer-pick");
 

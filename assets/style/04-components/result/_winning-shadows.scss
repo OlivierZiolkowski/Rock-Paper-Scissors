@@ -1,0 +1,71 @@
+//* Add shadows behind winning token
+
+// Needed vars
+
+// Defines general rules for each shadow
+@mixin winning-shadows {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: $bd-radius-circle;
+}
+
+.win {
+    position: relative;
+
+    // First shadow (smaller)
+    .gameboard__logo:after {
+        @include winning-shadows;
+        width: calc(#{$w-item} + (#{$w-item} * 0.5));
+        height: calc(#{$h-item} + (#{$h-item} * 0.5));
+        margin-top: calc((#{-$w-item} + (#{-$w-item} * 0.5)) * 0.5);
+        margin-left: calc((#{-$h-item} + (#{-$h-item} * 0.5)) * 0.5);
+        z-index: -1;
+        background: $c-radial-light;
+        // Media queries
+        @include mobile {
+            width: calc((#{$w-item} / 1.5) + ((#{$w-item} / 1.5) * 0.2));
+            height: calc((#{$h-item} / 1.5) + ((#{$h-item} / 1.5) * 0.2));
+            margin-top: calc((#{-$w-item} / 1.5) + ((#{-$w-item} / 1.5) * 0.2) * -2);
+            margin-left: calc(((#{-$h-item} / 1.5) + ((#{-$h-item} / 1.5) * 0.2)) * 0.5);
+        }
+    }
+
+    // Second shadow (medium)
+    &:before {
+        @include winning-shadows;
+        width: calc(#{$w-item} + (#{$w-item} * 1));
+        height: calc(#{$h-item} + (#{$h-item} * 1));
+        margin-top: calc((#{-$w-item} + (#{-$w-item} * 1)) * 0.5);
+        margin-left: calc((#{-$h-item} + (#{-$h-item} * 1)) * 0.5);
+        z-index: -2;
+        background: darken($c-radial-light, 2%);
+        // media queries
+        @include mobile {
+            width: calc((#{$w-item} / 1.5) + ((#{$w-item} / 1.5) * 0.4));
+            height: calc((#{$h-item} / 1.5) + ((#{$h-item} / 1.5) * 0.4));
+            margin-top: calc((#{-$w-item} / 1.5) + ((#{-$w-item} / 1.5) * 0.4) * -0.75);
+            margin-left: calc(((#{-$h-item} / 1.5) + ((#{-$h-item} / 1.5) * 0.4)) * 0.5);
+        }
+    }
+
+    // Third wave (larger)
+    &:after {
+        @include winning-shadows;
+        width: calc(#{$w-item} + (#{$w-item} * 1.5));
+        height: calc(#{$h-item} + (#{$h-item} * 1.5));
+        margin-top: calc((#{-$w-item} + (#{-$w-item} * 1.5)) * 0.5);
+        margin-left: calc((#{-$h-item} + (#{-$h-item} * 1.5)) * 0.5);
+        z-index: -3;
+        background: darken($c-radial-light, 4%);
+        
+        // Media queries
+        @include mobile {
+            width: calc((#{$w-item} / 1.5) + ((#{$w-item} / 1.5) * 0.6));
+            height: calc((#{$h-item} / 1.5) + ((#{$h-item} / 1.5) * 0.6));
+            margin-top: calc((#{-$w-item} / 1.5) + ((#{-$w-item} / 1.5) * 0.6) * -0.35);
+            margin-left: calc(((#{-$h-item} / 1.5) + ((#{-$h-item} / 1.5) * 0.6)) * 0.5);
+        }
+    }
+}

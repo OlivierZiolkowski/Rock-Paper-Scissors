@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)",
   "scripts": {
-    "serve": "parcel index.html --open",
-    "build": "parcel build index.html",
-    "sass": "sass assets/style/style.scss style.css --style compressed",
-    "dev": "yarn sass && yarn serve",
-    "prod": "yarn sass && yarn build"
+    "sass-d": "sass --watch assets/style/style.scss style.css",
+    "sass-b": "sass --style=compressed assets/style/style.scss style.css",
+    "parcel-d": "parcel index.html --open",
+    "parcel-b": "parcel build index.html",
+    "build": "yarn sass-b && yarn parcel-b"
   },
   "keywords": [],
   "author": "",
