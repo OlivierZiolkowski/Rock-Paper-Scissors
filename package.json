@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "parcel index.html --open",
     "build": "parcel build index.html",
-    "sass": "sass assets/style/style.scss style.css",
+    "sass": "sass assets/style/style.scss style.css --style compressed",
     "dev": "yarn sass && yarn serve",
     "prod": "yarn sass && yarn build"
   },

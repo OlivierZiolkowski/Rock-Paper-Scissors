@@ -1,6 +1,7 @@
 // Defines general rules for each game item
 
 @mixin game-item {
+    box-sizing: border-box;
     width: $w-item;
     height: $h-item;
     border-radius: $bd-radius-circle;

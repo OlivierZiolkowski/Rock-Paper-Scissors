@@ -1,14 +1,13 @@
-// Calling scripts
-
 // Game elements
-const gameboard =  document.querySelector(".gameboard");
+const gameboard = document.querySelector(".gameboard");
 const gameboardItemsList = gameboard.querySelectorAll(".gameboard__item");
 const resultBoard = document.querySelector(".game-result");
 const infosBlock = document.querySelector(".gr-infos");
 const resultMessage = document.querySelector(".gr-infos__title");
 const replayButton = document.querySelector(".gr-infos__button");
-
 const scoreBox = document.querySelector(".score-box__total");
+
+// Game variables
 let playerScore = 0;
 
 // Retrieves class names of choices items
@@ -20,20 +19,27 @@ const computerPick = document.querySelector("#computer-pick");
 
 const app = {
     // Game initialization
-    init: function() {
+    init: function () {
+        // Upload saving player score function
+        score.init();
+        // Launch game function
         app.playerPick();
+
+        // Defines event on replay button
         replayButton.addEventListener("click", app.relaunchGame);
-        scoreBox.innerHTML = playerScore;
     },
-    playerPick: function() {
-        // Récupère la liste des items
+    playerPick: function () {
+        // Permit to launch a new game when palyer click on a game token
         for (let i = 0; i < gameboardItemsList.length; i++) {
             choicesList.push(gameboardItemsList[i].classList[1]);
             gameboardItemsList[i].addEventListener("click", app.launchGame);
         }
     },
-    launchGame: function(clickedItem) {
+    launchGame: function (clickedItem) {
+        // Retrieves class from player's choice pick
         playerChoice = clickedItem.path[1].classList[1];
+
+        // Change gameboard by result board
         gameboard.style.left = "-200%";
         gameboard.style.opactity = 0;
         gameboard.style.transition = "all 0.6s ease-in-out";
@@ -44,54 +50,31 @@ const app = {
 
         playerPick.classList.add(playerChoice);
 
+        // Call computer choice
         app.computerChoice();
-
     },
-    computerChoice: function() {
-        console.log(choicesList);
-        let computerSaid = choicesList[Math.floor(Math.random()*choicesList.length)];
+    computerChoice: function () {
+        // Defines how computer make a choice
+        let computerSaid = choicesList[Math.floor(Math.random() * choicesList.length)];
         computerPick.classList.add(computerSaid);
-        app.gameRules();
+        
+        // Apply rules after computer's choice
+        rules.gameRules();
     },
-    gameRules: function() {
-        console.log(computerPick.classList[1]);
-        console.log(playerPick.classList[1]);
-        // Winning conditions
-        if (
-            (computerPick.classList[1] === "scissors" && playerPick.classList[1] === "rock") ||
-            (computerPick.classList[1] === "paper" && playerPick.classList[1] === "scissors") ||
-            (computerPick.classList[1] === "rock" && playerPick.classList[1] === "paper")
-        ) {
-            resultMessage.innerHTML = "you win";
-            playerScore ++;
-            scoreBox.innerHTML = playerScore;
-        } 
-        // Losing conditions
-        else if(
-            (computerPick.classList[1] === "scissors" && playerPick.classList[1] === "paper") ||
-            (computerPick.classList[1] === "paper" && playerPick.classList[1] === "rock") ||
-            (computerPick.classList[1] === "rock" && playerPick.classList[1] === "scissors")
-        ) {
-            resultMessage.innerHTML = "you lose";
-        }
-        // Draw conditions
-        else {
-            resultMessage.innerHTML = "draw";
-        }
-
-        // Infos block
-        infosBlock.style.display = "flex";
-    },
-    relaunchGame: function() {
+    relaunchGame: function () {
+        // Gameboard init
         gameboard.style.left = 0;
         gameboard.style.opacity = 1;
         gameboard.style.transition = "all 0.6s ease-in-out";
-        playerPick.classList.remove("paper", "scissors", "rock");
-        computerPick.classList.remove("paper", "scissors", "rock");
 
+        // Result board init
         resultBoard.style.right = "-200%";
         resultBoard.style.opacity = 0;
         resultBoard.style.transition = "all 0.6s ease-in-out";
+
+        // Remove class on result board tokens
+        playerPick.classList.remove("paper", "scissors", "rock");
+        computerPick.classList.remove("paper", "scissors", "rock");
     }
 }
 
