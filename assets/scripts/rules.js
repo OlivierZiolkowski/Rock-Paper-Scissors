@@ -10,7 +10,7 @@ const rules = {
         ) {
             resultMessage.innerHTML = "you win";
             playerPick.classList.add("win");
-            score.updateScore();
+            score.scoreCounter();
         } 
         // Losing conditions
         else if(

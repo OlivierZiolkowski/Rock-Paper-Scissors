@@ -18,7 +18,7 @@ const app = {
     //* Game initialization
     init: function () {
         // Upload saving player score function
-        score.init();
+        score.scoreCounter();
         // Launch game function
         app.playerPick();
         // Defines event on replay button
@@ -60,7 +60,7 @@ const app = {
         setTimeout(function(){
             computerPick.classList.add(computerSaid),
             rules.gameRules();
-        }, 2000);
+        }, 1200);
     },
     //* Reboot game
     relaunchGame: function () {

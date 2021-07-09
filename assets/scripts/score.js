@@ -1,20 +1,15 @@
-// Game variable
-let playerScore = 0;
-
-// Handle player's score saved on localStorage
-let savedPlayerScore  = localStorage.getItem("Shifumi") ? localStorage.getItem("Shifumi") : 0;
-
+// Defines & save player's score on localStorage
 const score = {
-    init: function() {
-        scoreBox.innerHTML = savedPlayerScore;
-    },
-    updateScore: function() {
-        // Add unity when player win
-        playerScore ++;
-        // Display the score on score board
-        scoreBox.innerHTML = playerScore;
-
-        // Save score on localStorage
-        localStorage.setItem("Shifumi", playerScore);
+    scoreCounter: function() {
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.scoreCount) {
+                localStorage.scoreCount = Number(localStorage.scoreCount) + 1;
+            } else {
+                localStorage.scoreCount = 0;
+            }
+            document.querySelector(".score-box__total").innerHTML = localStorage.scoreCount;
+        } else {
+            console.log("Erreur score box");
+        }
     }
 }
