@@ -36,9 +36,8 @@ const app = {
     },
     launchGame: function (clickedItem) {
         // Retrieves class from player's choice pick
-        playerChoice = clickedItem.path[0].classList[1];
-
-        console.log(clickedItem);
+        playerChoice = clickedItem.path[1].classList[1] ? clickedItem.path[1].classList[1] : clickedItem.path[0].classList[1] ;
+        console.log(playerChoice);
 
         // Change gameboard by result board
         gameboard.style.left = "-200%";
