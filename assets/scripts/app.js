@@ -18,7 +18,7 @@ const app = {
     //* Game initialization
     init: function () {
         // Upload saving player score function
-        score.scoreCounter();
+        score.scoreInit();
         // Launch game function
         app.playerPick();
         // Defines event on replay button
