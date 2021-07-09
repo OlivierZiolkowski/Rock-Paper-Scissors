@@ -7,8 +7,6 @@ const resultMessage = document.querySelector(".gr-infos__title");
 const replayButton = document.querySelector(".gr-infos__button");
 const scoreBox = document.querySelector(".score-box__total");
 
-console.log(gameboardItemsList);
-
 // Retrieves class names of choices items
 const choicesList = [];
 
@@ -28,21 +26,24 @@ const app = {
         replayButton.addEventListener("click", app.relaunchGame);
     },
     playerPick: function () {
-        // Permit to launch a new game when palyer click on a game token
+        // Permit to launch a new game when player click on a game token
         for (let i = 0; i < gameboardItemsList.length; i++) {
+            // Add each choice on choiceList array
             choicesList.push(gameboardItemsList[i].classList[1]);
+            // Add an listener on each game token
             gameboardItemsList[i].addEventListener("click", app.launchGame);
         }
     },
     launchGame: function (clickedItem) {
         // Retrieves class from player's choice pick
-        playerChoice = clickedItem.path[1].classList[1];
+        playerChoice = clickedItem.path[0].classList[1];
+
+        console.log(clickedItem);
 
         // Change gameboard by result board
         gameboard.style.left = "-200%";
         gameboard.style.opactity = 0;
         gameboard.style.transition = "all 0.6s ease-in-out";
-
         resultBoard.style.right = "0";
         resultBoard.style.opacity = 1;
         resultBoard.style.transition = "all 0.6s ease-in-out";
@@ -72,8 +73,8 @@ const app = {
         resultBoard.style.transition = "all 0.6s ease-in-out";
 
         // Remove class on result board tokens
-        playerPick.classList.remove("paper", "scissors", "rock");
-        computerPick.classList.remove("paper", "scissors", "rock");
+        playerPick.classList.remove("paper", "scissors", "rock", "win");
+        computerPick.classList.remove("paper", "scissors", "rock", "win");
     }
 }
 
