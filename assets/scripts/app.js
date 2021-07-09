@@ -37,7 +37,6 @@ const app = {
     launchGame: function (clickedItem) {
         // Retrieves class from player's choice pick
         playerChoice = clickedItem.path[1].classList[1] ? clickedItem.path[1].classList[1] : clickedItem.path[0].classList[1] ;
-        console.log(playerChoice);
 
         // Change gameboard by result board
         gameboard.style.left = "-200%";
@@ -47,6 +46,7 @@ const app = {
         resultBoard.style.opacity = 1;
         resultBoard.style.transition = "all 0.6s ease-in-out";
 
+        // Add player's choice on result board
         playerPick.classList.add(playerChoice);
 
         // Call computer choice
@@ -55,8 +55,9 @@ const app = {
     computerChoice: function () {
         // Defines how computer make a choice
         let computerSaid = choicesList[Math.floor(Math.random() * choicesList.length)];
-        computerPick.classList.add(computerSaid);
-        
+        // Defines a timeout to async computer's choice
+        setTimeout(function(){ computerPick.classList.add(computerSaid)}, 2000);
+
         // Apply rules after computer's choice
         rules.gameRules();
     },
