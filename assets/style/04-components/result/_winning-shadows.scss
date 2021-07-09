@@ -1,6 +1,7 @@
 //* Add shadows behind winning token
 
 // Needed vars
+$multiplier: 0.5;
 
 // Defines general rules for each shadow
 @mixin winning-shadows {
@@ -17,10 +18,10 @@
     // First shadow (smaller)
     .gameboard__logo:after {
         @include winning-shadows;
-        width: calc(#{$w-item} + (#{$w-item} * 0.5));
-        height: calc(#{$h-item} + (#{$h-item} * 0.5));
-        margin-top: calc((#{-$w-item} + (#{-$w-item} * 0.5)) * 0.5);
-        margin-left: calc((#{-$h-item} + (#{-$h-item} * 0.5)) * 0.5);
+        width: calc(#{$w-item} + (#{$w-item} * #{$multiplier}));
+        height: calc(#{$h-item} + (#{$h-item} * #{$multiplier}));
+        margin-top: calc((#{-$w-item} + (#{-$w-item} * #{$multiplier})) * 0.5);
+        margin-left: calc((#{-$h-item} + (#{-$h-item} * #{$multiplier})) * 0.5);
         z-index: -1;
         background: $c-radial-light;
         // Media queries
@@ -35,10 +36,10 @@
     // Second shadow (medium)
     &:before {
         @include winning-shadows;
-        width: calc(#{$w-item} + (#{$w-item} * 1));
-        height: calc(#{$h-item} + (#{$h-item} * 1));
-        margin-top: calc((#{-$w-item} + (#{-$w-item} * 1)) * 0.5);
-        margin-left: calc((#{-$h-item} + (#{-$h-item} * 1)) * 0.5);
+        width: calc(#{$w-item} + (#{$w-item} * (#{$multiplier} * 2)));
+        height: calc(#{$h-item} + (#{$h-item} * (#{$multiplier} * 2)));
+        margin-top: calc((#{-$w-item} + (#{-$w-item} * (#{$multiplier} * 2))) * 0.5);
+        margin-left: calc((#{-$h-item} + (#{-$h-item} * (#{$multiplier} * 2))) * 0.5);
         z-index: -2;
         background: darken($c-radial-light, 2%);
         // media queries
@@ -53,10 +54,10 @@
     // Third wave (larger)
     &:after {
         @include winning-shadows;
-        width: calc(#{$w-item} + (#{$w-item} * 1.5));
-        height: calc(#{$h-item} + (#{$h-item} * 1.5));
-        margin-top: calc((#{-$w-item} + (#{-$w-item} * 1.5)) * 0.5);
-        margin-left: calc((#{-$h-item} + (#{-$h-item} * 1.5)) * 0.5);
+        width: calc(#{$w-item} + (#{$w-item} * (#{$multiplier} * 3)));
+        height: calc(#{$h-item} + (#{$h-item} * (#{$multiplier} * 3)));
+        margin-top: calc((#{-$w-item} + (#{-$w-item} * (#{$multiplier} * 3))) * 0.5);
+        margin-left: calc((#{-$h-item} + (#{-$h-item} * (#{$multiplier} * 3))) * 0.5);
         z-index: -3;
         background: darken($c-radial-light, 4%);
         

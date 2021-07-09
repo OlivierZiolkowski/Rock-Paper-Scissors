@@ -42,7 +42,7 @@ const app = {
         gameboard.style.left = "-200%";
         gameboard.style.opactity = 0;
         gameboard.style.transition = "all 0.6s ease-in-out";
-        resultBoard.style.right = "0";
+        resultBoard.style.left = "0";
         resultBoard.style.opacity = 1;
         resultBoard.style.transition = "all 0.6s ease-in-out";
 
@@ -70,7 +70,7 @@ const app = {
         gameboard.style.transition = "all 0.6s ease-in-out";
 
         // Result board init
-        resultBoard.style.right = "-200%";
+        resultBoard.style.left = "-200%";
         resultBoard.style.opacity = 0;
         resultBoard.style.transition = "all 0.6s ease-in-out";
 
