@@ -1,0 +1,2 @@
+const score={scoreInit:function(){"undefined"!=typeof Storage?(localStorage.scoreCount||(localStorage.scoreCount=0),document.querySelector(".score-box__total").innerHTML=localStorage.scoreCount):console.log("Erreur score box")},scoreCounter:function(){"undefined"!=typeof Storage?(localStorage.scoreCount?localStorage.scoreCount=Number(localStorage.scoreCount)+1:localStorage.scoreCount=1,document.querySelector(".score-box__total").innerHTML=localStorage.scoreCount):console.log("Erreur score box")}};
+//# sourceMappingURL=index.ac5ebda2.js.map

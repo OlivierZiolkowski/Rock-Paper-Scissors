@@ -1,4 +1,4 @@
-16645
+16654
 108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\shebang-regex\package.json132603011381570000 0
 95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-typedarray132701385766210433 1
 91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.aac565b4.js132702216404365388 0
@@ -40,7 +40,7 @@
 125C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\generated\Element.js132658231736370000 0
 101C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\pullAt.js132664887410599998 0
 104C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\optimizer-svgo132701391256911439 1
-73C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist132702216404695313 1
+73C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist132703843817304475 1
 99C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\browserify-cipher132701385713653829 1
 123C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\highlight.js\lib\languages\mathematica.js132664887424939998 0
 132C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\nodes\HTMLHRElement-impl.js132658231736370000 0
@@ -179,7 +179,7 @@
 137C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\nodes\HTMLPictureElement-impl.js132658231736370000 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\core\src\ReporterRunner.js132701389705529998 0
 134C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\types\lib\comments\inheritTrailingComments.js132701385583199998 0
-78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\style.css132702216333259725 0
+78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\style.css132703843693236271 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\svgo\lib\svgo\css-style-declaration.js132701389759990002 0
 126C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-modules-extract-imports\package.json132603010720790000 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\uuid\lib\sha1.js132603011305150002 0
@@ -204,7 +204,7 @@
 109C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-normalize-positions132701391069127036 1
 135C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\features\date-tolocaledatestring.js132701385619279998 0
 106C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\_createPartial.js132664887410599998 0
-82C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\style.css.map132702216333259725 0
+82C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\style.css.map132703843693236271 0
 127C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\features\media-attribute.js132701385619279998 0
 127C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\core\node_modules\json5\lib\require.js132664887217200000 0
 119C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\uri-js\dist\esnext\schemes\https.d.ts132664887624460000 0
@@ -289,6 +289,7 @@
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\uri-js\dist\es5\uri.all.min.d.ts132664887624460000 0
 101C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\string-hash\test.js132664887347600000 0
 105C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\path-browserify\.github132701391035997795 1
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.2036541e.js.map132703843817264461 0
 86C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\base132701385729106202 1
 101C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\cloneWith.js132664887410599998 0
 88C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@types132701391048283883 1
@@ -319,7 +320,6 @@
 109C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\es\function\bind.js132701389764580000 0
 130C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\features\css-default-pseudo.js132701385619279998 0
 104C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\regex-not\package.json132603011354680000 0
-78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\16132696206270724050 1
 102C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-arrayish\index.js132603010795390000 0
 96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\to-object-path132701386214917955 1
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\es\array\virtual\filter-out.js132701389764580000 0
@@ -1191,7 +1191,7 @@
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss\lib\result.js132701389759900000 0
 119C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\parcel\node_modules\commander\LICENSE132664887133540000 0
 156C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-node-modules132701389705529998 0
-95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.1ce85d45.js.map132702120611847263 0
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.1ce85d45.js.map132703836796186450 0
 108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\_baseSetToString.js132664887410599998 0
 95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\.bin\uuid.cmd132701391264919523 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\which-boxed-primitive\package.json132664887623340000 0
@@ -1441,7 +1441,7 @@
 95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\get-intrinsic132701385747780490 1
 108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\snapdragon\lib\position.js132603011335720002 0
 90C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\get-port132701391028457286 1
-108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\main\_main.scss132702014373753410 0
+108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\main\_main.scss132702943478301879 0
 111C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-minify-params\LICENSE132701389794290000 0
 93C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\querystring132701390095996570 1
 129C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\serve-handler\node_modules\mime-types\README.md132664887307300000 0
@@ -1482,7 +1482,7 @@
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\yallist\yallist.js132603010730950000 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\saxes\package.json132658231786980000 0
 112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\es-abstract\2016\msFromTime.js132669199895630000 0
-107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\vars\_icons.scss132702215521641293 0
+107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\vars\_icons.scss132703838203355450 0
 111C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\parse-int.js132701389764580000 0
 95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\har-validator132701385750280840 1
 97C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\xxhash-wasm\esm132701390062237990 1
@@ -1492,7 +1492,7 @@
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\json-stringify-safe\package.json132658231798050002 0
 107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-reduce-transforms132701391069439632 1
 115C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\electron-to-chromium\CHANGELOG.md132701385616520000 0
-95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.79da15cc.js.map132702204258501997 0
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.79da15cc.js.map132703836796196462 0
 92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\uuid\v4.js132603011305150002 0
 135C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\object\get-own-property-descriptors.js132701389764580000 0
 99C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\atob\LICENSE.DOCS132603011117250000 0
@@ -1653,6 +1653,7 @@
 104C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\source-map\src132701390028697383 1
 104C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\partialRight.js132664887410599998 0
 102C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\toUpper.js132664887410599998 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.04c78d4d.js132703843817134459 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\sha.js\sha384.js132658231806600000 0
 99C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-boolean-object132701385761920360 1
 126C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\source-map\parcel_sourcemap_wasm\src132701390065781979 1
@@ -3775,7 +3776,7 @@
 137C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\uncss\node_modules\postcss-selector-parser\package.json132658231731270000 0
 112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\loader-utils\lib\parseQuery.js132603010583490000 0
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\symbol\key-for.js132701389764580000 0
-112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\_components.scss132700531100945391 0
+112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\_components.scss132702254033364879 0
 111C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\msgpackr-extract\package.json132701389820170000 0
 134C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\uncss\node_modules\postcss-selector-parser\README.md132658231731270000 0
 91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\json5\lib132701388285171354 1
@@ -4349,7 +4350,7 @@
 99C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\map-cache\LICENSE132603011365109998 0
 139C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\mdb_copy.c132701389778269998 0
 107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\miller-rabin\package.json132658231807070000 0
-91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.9f3a0936.js132702119641334115 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.9f3a0936.js132703836794876332 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\source-map-js\lib\binary-search.js132664887333070000 0
 96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\last.js132664887410599998 0
 109C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\lexer\index.js132664887412530000 0
@@ -5419,6 +5420,7 @@
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\lodash.js132664887410599998 0
 118C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\es-abstract\2017\IteratorComplete.js132669199895630000 0
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\relateurl\lib\parse\urlstring.js132603011022750000 0
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.04c78d4d.js.map132703843817244459 0
 107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lmdb-store\dict\dict2.txt132701389778269998 0
 125C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\es-abstract\helpers\getSymbolDescription.js132669199895630000 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\events\Readme.md132664887635900000 0
@@ -5522,8 +5524,8 @@
 133C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\readable-stream\lib\internal\streams\buffer_list.js132603011051570000 0
 122C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\core\lib\public\PluginOptions.js132701389705529998 0
 107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\path-to-regexp\index.d.ts132664887310970000 0
-129C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\readable-stream\lib\internal\streams\destroy.js132603011051570000 0
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\14132696206270724050 1
+129C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\readable-stream\lib\internal\streams\destroy.js132603011051570000 0
 99C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\omit.js132664887410599998 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\core.min.js132664887410599998 0
 135C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\readable-stream\lib\internal\streams\end-of-stream.js132603011051570000 0
@@ -5963,7 +5965,7 @@
 112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\array\keys.js132701389764580000 0
 99C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\flatten.js132664887410599998 0
 126C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\string\virtual\pad-start.js132701389764580000 0
-113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\main\_gameboard.scss132702024663241465 0
+113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\main\_gameboard.scss132703838431262662 0
 132C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-selector-parser\dist\__tests__\comments.js132664887410179998 0
 135C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\path-browserify\test\test-path-zero-length-strings.js132664887636650000 0
 155C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-react-refresh-wrap\lib\ReactRefreshWrapTransformer.js132701389741849998 0
@@ -6027,7 +6029,7 @@
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\index.js132658231736370000 0
 130C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-selector-parser\dist\selectors\string.js132664887410179998 0
 107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\hash\package.json132701389755869998 0
-98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\image-rules.0f6c0909.svg132702119640484056 0
+98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\image-rules.0f6c0909.svg132703836794786321 0
 127C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-selector-parser\dist\selectors\tag.js132664887410179998 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\events\security.md132664887635900000 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-reduce-transforms\package.json132701389799619998 0
@@ -6452,7 +6454,7 @@
 135C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTableElement-impl.js132658231736370000 0
 109C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-convert-values\dist132701391037056218 1
 125C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\es-abstract\2015\SymbolDescriptiveString.js132669199895630000 0
-84C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.html132702216404365388 0
+84C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.html132703843817124455 0
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-convert-values\README.md132701389787279998 0
 129C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\core\node_modules\json5\lib\stringify.js132664887217200000 0
 118C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss-convert-values\dist\index.js132701389787279998 0
@@ -6535,8 +6537,9 @@
 161C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-modules-loader-core\node_modules\postcss-modules-local-by-default\README.md132658231689519998 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss\lib\node.d.ts132701389759900000 0
 101C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-wsl\node_modules132701391260386325 1
-105C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss\lib\postcss.mjs132701389759900000 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\es-abstract\2019\GetOwnPropertyKeys.js132669199895630000 0
+124C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\result\_winning-shadows.scss132702942682653742 0
+105C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\postcss\lib\postcss.mjs132701389759900000 0
 137C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\generated\HTMLTemplateElement.js132658231736370000 0
 105C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lmdb-store\package.json132701389778269998 0
 107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\cross-spawn\lib\enoent.js132603011369270000 0
@@ -8125,7 +8128,7 @@
 125C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\helpers\traversal.js132658231736370000 0
 108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\_compareMultiple.js132664887410599998 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\regions\ER.js132701385619279998 0
-101C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icons8-effacer.1e939f22.svg132702119640824097 0
+101C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icons8-effacer.1e939f22.svg132703836794796318 0
 104C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\_composeArgs.js132664887410599998 0
 102C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\_copyArray.js132664887410599998 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\_copyObject.js132664887410599998 0
@@ -8534,7 +8537,7 @@
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\get-intrinsic\test132701385935349053 1
 145C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json132701389705529998 0
 135C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-js\parcel-swc.linux-x64-musl.node132701389759220000 0
-95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.06e5707c.js.map132702206633251925 0
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.06e5707c.js.map132703836796196462 0
 110C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\matchesProperty.js132664887410599998 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\max.js132664887410599998 0
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\highlight.js\lib\languages\1c.js132664887424939998 0
@@ -8594,7 +8597,7 @@
 106C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\placeholder.js132664887410599998 0
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\es-abstract\2015\DateFromTime.js132669199895630000 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\regions\AS.js132701385619279998 0
-92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\scripts\rules.js132702120610552302 0
+92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\scripts\rules.js132702931875754016 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\plant.js132664887410599998 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\pluck.js132664887410599998 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\lodash\fp\property.js132664887410599998 0
@@ -9379,7 +9382,7 @@
 133C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\generated\HashChangeEvent.js132658231736370000 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\typed-array\at.js132701389764580000 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\es-abstract\es2017.js132669199895630000 0
-95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.9f3a0936.js.map132702119641754147 0
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.9f3a0936.js.map132703836796186450 0
 125C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\generated\History.js132658231736370000 0
 112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-js\LICENSE132701389759220000 0
 134C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\jsdom\lib\jsdom\living\generated\HTMLAudioElement.js132658231736370000 0
@@ -9699,6 +9702,7 @@
 111C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-number-object\CHANGELOG.md132664887628630000 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-generator-function\.eslintrc132664887656880000 0
 106C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-number-object\LICENSE132664887628630000 0
+92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.03326675.css132703843817134459 0
 111C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-number-object\package.json132664887628630000 0
 121C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\core\lib\transformation\index.js132701385581350000 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\is-number-object\test132701385965916893 1
@@ -10016,9 +10020,9 @@
 133C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\icss-utils\node_modules\postcss\docs\source-maps.md132701385590890000 0
 106C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\copy-descriptor\index.js132603011383560000 0
 139C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\icss-utils\node_modules\postcss\docs\guidelines\runner.md132701385590890000 0
-127C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\icss-utils\node_modules\color-name\.npmignore132603010469000000 0
-78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\17132696206270804053 1
 104C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\crypto-browserify\test132701385917313285 1
+78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\17132696206270804053 1
+127C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\icss-utils\node_modules\color-name\.npmignore132603010469000000 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\highlight.js\lib\languages\json.js132664887424939998 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\regions\BI.js132701385619279998 0
 125C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\icss-utils\node_modules\color-name\index.js132603010469000000 0
@@ -10082,7 +10086,7 @@
 110C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\iconv-lite\encodings\utf7.js132603011339670000 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\extend\component.json132658231795500000 0
 125C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\iconv-lite\encodings\tables\big5-added.json132603011339670000 0
-90C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\scripts\app.js132702206631663142 0
+90C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\scripts\app.js132702949328969865 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\iconv-lite\encodings\tables\cp936.json132603011339670000 0
 108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\helper-plugin-utils132701385700058941 1
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\iconv-lite\encodings\tables\cp949.json132603011339670000 0
@@ -10219,6 +10223,7 @@
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\html-encoding-sniffer\package.json132658231778190000 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\html-encoding-sniffer\README.md132658231778190000 0
 132C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\html-encoding-sniffer\lib\html-encoding-sniffer.js132658231778190000 0
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.ac5ebda2.js.map132703843817264461 0
 109C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\es\instance\flat.js132701389764580000 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\hsla-regex\LICENSE.md132603010799600000 0
 105C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\hsl-regex\.editorconfig132603010799080000 0
@@ -10732,7 +10737,7 @@
 101C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\buffer-from\LICENSE132603011048000000 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\fraction.js\README.md132669199912449998 0
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\format\component.json132664887562340000 0
-113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\mixins\_game-item.scss132702036875565594 0
+113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\mixins\_game-item.scss132702277154045041 0
 97C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\format\Makefile132664887562340000 0
 112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\cssstyle\lib\named_colors.json132658231772660000 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\format\Readme.md132664887562340000 0
@@ -11834,7 +11839,7 @@
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\dir-glob\readme.md132603010697279998 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\string\pad-end.js132701389764580000 0
 108C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\diffie-hellman\.travis.yml132658231746180000 0
-102C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\result132701433727389415 1
+102C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\result132702252177662366 1
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\regions\LK.js132701385619279998 0
 115C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\utils\lib\alternatives.js132701389705940000 0
 107C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\diffie-hellman\browser.js132658231746180000 0
@@ -11937,7 +11942,7 @@
 122C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@swc\helpers\src\_array_without_holes.js132664909075930000 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\defaults\README.md132658231758680000 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\defaults\test.js132658231758680000 0
-100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\favicon-32x32.dc076303.png132702119640484056 0
+100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\favicon-32x32.dc076303.png132703836794456318 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\defaults\node_modules\clone\.npmignore132658231813970002 0
 123C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\utils\node_modules\.bin\json5.cmd132701391258471784 0
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\utils\lib\escape-html.js132701389705940000 0
@@ -12234,7 +12239,7 @@
 118C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\syntax\node\Operator.js132664887412530000 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\regions\SE.js132701385619279998 0
 121C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\syntax\node\Parentheses.js132664887412530000 0
-98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\bg-triangle.f6ebf3b7.svg132702119640504067 0
+98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\bg-triangle.f6ebf3b7.svg132703836794786321 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\syntax\node\Percentage.js132664887412530000 0
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\a3132696206273329575 1
 122C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\syntax\node\SelectorList.js132664887412530000 0
@@ -12252,7 +12257,7 @@
 117C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\syntax\atrule\media.js132664887412530000 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\syntax\atrule\page.js132664887412530000 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\syntax\atrule\supports.js132664887412530000 0
-91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.06e5707c.js132702206633171879 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.06e5707c.js132703836794896341 0
 131C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\features\css-backdrop-filter.js132701385619279998 0
 111C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\parser\create.js132664887412530000 0
 110C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\css-tree\lib\parser\index.js132664887412530000 0
@@ -12953,7 +12958,7 @@
 94C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\chokidar\lib132701385918616536 1
 118C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-babel\lib\jsx.js132701389738150002 0
 114C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\string\replace.js132701389764580000 0
-96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.c1acc8ed.css.map132702215525002451 0
+96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.c1acc8ed.css.map132703836796166424 0
 112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\string\small.js132701389764580000 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\string\strike.js132701389764580000 0
 91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\images\logo.svg132696186062199211 0
@@ -13071,7 +13076,7 @@
 126C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\modules\esnext.string.code-points.js132701389764580000 0
 145C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\node-resolver-core\test\fixture\packages\source\dist.js132701389801140002 0
 120C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\instance\starts-with.js132701389764580000 0
-96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icon-rock.70611c07.svg132702119640844079 0
+96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icon-rock.70611c07.svg132703836794786321 0
 117C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\instance\trim-end.js132701389764580000 0
 119C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\modules\es.string.iterator.js132701389764580000 0
 118C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\stable\instance\trim-left.js132701389764580000 0
@@ -13881,9 +13886,9 @@
 123C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\array\find-last-index.js132701389764580000 0
 128C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\plugin-transform-react-jsx\package.json132701385581230000 0
 112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\array\from.js132701389764580000 0
+78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\15132696206270724050 1
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\array\is-array.js132701389764580000 0
 123C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\traverse\lib\path\introspection.js132701385581580000 0
-78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\15132696206270724050 1
 103C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\colord\plugins\mix.js132701389802830000 0
 126C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\array\is-template-object.js132701389764580000 0
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\core-js\features\array\iterator.js132701389764580000 0
@@ -14214,8 +14219,8 @@
 104C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\colord\plugins\a11y.js132701389802830000 0
 123C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\command-exists\test\executable-script.cmd132664887226989998 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\regions\SN.js132701385619279998 0
-122C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\command-exists\test\executable-script.js132664887226989998 0
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\12132696206270724050 1
+122C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\command-exists\test\executable-script.js132664887226989998 0
 126C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\command-exists\test\non-executable-script.js132664887226989998 0
 118C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\command-exists\lib\command-exists.js132664887226989998 0
 124C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\caniuse-lite\data\features\svg-fragment.js132701385619279998 0
@@ -15524,6 +15529,7 @@
 142C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-postcss\node_modules\postcss\lib\rule.js132701385590890000 0
 149C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-postcss\node_modules\postcss\lib\stringifier.js132701385590890000 0
 146C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-postcss\node_modules\postcss\lib\tokenize.js132701385590890000 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.ac5ebda2.js132703843817134459 0
 144C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-postcss\node_modules\postcss\lib\vendor.js132701385590890000 0
 147C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-postcss\node_modules\postcss\lib\warn-once.js132701385590890000 0
 146C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-postcss\node_modules\postcss\docs\guidelines132701391038085624 1
@@ -15554,7 +15560,7 @@
 138C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-json\node_modules\json5\CHANGELOG.md132664887217200000 0
 129C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-json\node_modules\json5\lib132701390036099269 1
 136C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-json\node_modules\json5\LICENSE.md132664887217200000 0
-112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\footer\_footer.scss132699449444179314 0
+112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\footer\_footer.scss132702941107349494 0
 136C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-json\node_modules\json5\lib\cli.js132664887217200000 0
 138C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-json\node_modules\json5\lib\index.js132664887217200000 0
 141C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@parcel\transformer-json\node_modules\json5\lib\register.js132664887217200000 0
@@ -16160,7 +16166,6 @@
 110C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\traverse\package.json132701385581580000 0
 118C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\traverse\scripts\package.json132701385581580000 0
 127C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\traverse\scripts\generators\asserts.js132701385581580000 0
-78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\18132696206270884062 1
 116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\traverse\node_modules\debug132701388269617096 1
 122C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\traverse\node_modules\ms\index.js132603010454660000 0
 126C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\@babel\traverse\node_modules\ms\package.json132603010454660000 0
@@ -16418,36 +16423,38 @@
 96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\node_modules\.bin\uncss.cmd132701391264869511 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\bg-triangle.2d1bb8f5.svg132702216375294171 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\favicon-32x32.18448cd0.png132702216372590691 0
-97C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icon-paper.1275a5ef.svg132702119640824097 0
-100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icon-scissors.0a0fd3f8.svg132702119640434039 0
-91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.1ce85d45.js132702120611777241 0
+97C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icon-paper.1275a5ef.svg132703836794786321 0
+100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\icon-scissors.0a0fd3f8.svg132703836794786321 0
+96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.03326675.css.map132703843817244459 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.1ce85d45.js132703836794886342 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.2036541e.js132703843817134459 0
 96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.3cd6ee94.css.map132702012775866119 0
 91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.55da8c6a.js132702216404365388 0
-91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.79da15cc.js132702204258501997 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.79da15cc.js132703836794876332 0
 92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.99cffa73.css132702030314538175 0
 96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.99cffa73.css.map132702030314739934 0
 91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.bc2edf17.js132702216404365388 0
-92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.c1acc8ed.css132702215524922417 0
+92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.c1acc8ed.css132703836794866340 0
 91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.cd7b3ded.js132702216404365388 0
 95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.cd7b3ded.js.map132702216404634555 0
-91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.d14af21e.js132702119641324135 0
-95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.d14af21e.js.map132702119641754147 0
+91C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.d14af21e.js132703836794886342 0
+95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.d14af21e.js.map132703836796186450 0
 95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.ee1bb3ad.js.map132702030314739934 0
 96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\dist\index.fd17927e.css.map132702014377064449 0
 90C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils132696262807349734 1
 92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts132700508197834933 1
 92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\style.scss132700507924436784 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\result\_item.scss132700577158075596 0
-116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\gameboard\_item.scss132700574749749810 0
+116C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\04-components\gameboard\_item.scss132702252323295655 0
 99C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\header132696284153062387 1
 106C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\_layouts.scss132700526879004513 0
-110C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\main\_result.scss132702014211054566 0
-112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\header\_header.scss132699445728869205 0
+110C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\main\_result.scss132702943874578191 0
+112C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\03-layouts\header\_header.scss132702940715243268 0
 95C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\vars132697040509287018 1
 109C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\vars\_borders.scss132696878954623659 0
 113C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\vars\_breakpoints.scss132696834053774720 0
 117C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\style\01-utils\mixins\_media-queries.scss132696292294713263 0
-92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\scripts\score.js132702204256731974 0
+92C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\scripts\score.js132702948894727374 0
 98C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\images\bg-triangle.svg132696186055228764 0
 96C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\images\icon-rock.svg132696186058345709 0
 100C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\assets\images\icon-scissors.svg132696186058971178 0
@@ -16474,6 +16481,8 @@
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\0e132696206270483950 1
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\11132696206270724050 1
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\13132696206270724050 1
+78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\16132696206270724050 1
+78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\18132696206270884062 1
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\19132696206270884062 1
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\1a132696206270964084 1
 78C:\Users\olivi\Documents\Sites\Challenges\rock-paper-scissors-master\.cache\1b132696206270964084 1
