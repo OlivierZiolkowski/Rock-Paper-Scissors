@@ -487,7 +487,7 @@ main {
 
 .gameboard {
   box-sizing: border-box;
-  background: url("~/assets/images/bg-triangle.svg") center/45% no-repeat;
+  background: url("./assets/images/bg-triangle.svg") center/45% no-repeat;
   width: calc((200px * 2) + (200px * 0.5));
   height: calc((200px * 2));
   margin: auto;
@@ -629,7 +629,7 @@ header .score-box__total {
   }
 }
 .gameboard__item.paper .gameboard__logo {
-  background: url("~/assets/images/icon-paper.svg") no-repeat center/45%, white;
+  background: url("./assets/images/icon-paper.svg") no-repeat center/45%, white;
   box-shadow: 0px 8px 0px #d3d7df inset;
 }
 @media screen and (max-width: 376px) {
@@ -647,7 +647,7 @@ header .score-box__total {
   }
 }
 .gameboard__item.scissors .gameboard__logo {
-  background: url("~/assets/images/icon-scissors.svg") no-repeat center/45%, white;
+  background: url("./assets/images/icon-scissors.svg") no-repeat center/45%, white;
   box-shadow: 0px 8px 0px #d3d7df inset;
 }
 @media screen and (max-width: 376px) {
@@ -665,7 +665,7 @@ header .score-box__total {
   }
 }
 .gameboard__item.rock .gameboard__logo {
-  background: url("~/assets/images/icon-rock.svg") no-repeat center/45%, white;
+  background: url("./assets/images/icon-rock.svg") no-repeat center/45%, white;
   box-shadow: 0px 8px 0px #d3d7df inset;
 }
 @media screen and (max-width: 376px) {

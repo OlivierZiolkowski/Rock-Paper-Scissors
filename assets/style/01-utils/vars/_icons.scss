@@ -6,19 +6,19 @@ $h-item: 200px;
 $icons: (
     paper:(
         "class-name": "paper",
-        "url": '~/assets/images/icon-paper.svg',
+        "url": './assets/images/icon-paper.svg',
         "light-color": $c-paper-light,
         "dark-color": $c-paper-dark,
         ),
     scissors: (
         "class-name": "scissors",
-        "url": '~/assets/images/icon-scissors.svg',
+        "url": './assets/images/icon-scissors.svg',
         "light-color": $c-scissors-light,
         "dark-color": $c-scissors-dark,
         ),
     rock: (
         "class-name": "rock",
-        "url": '~/assets/images/icon-rock.svg',
+        "url": './assets/images/icon-rock.svg',
         "light-color": $c-rock-light,
         "dark-color": $c-rock-dark,
         )
