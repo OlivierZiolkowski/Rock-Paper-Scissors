@@ -54,13 +54,20 @@ const app = {
     },
     //* Computer's choice
     computerChoice: function () {
+        // Defines a default class for animation below
+        computerPick.classList.add(choicesList[0]);
+        // Add animation before computer's pick revealed
+        let rollChoices = setInterval(function(){animations.computerSearch()}, 150);
+
         // Defines how computer make a choice
         let computerSaid = choicesList[Math.floor(Math.random() * choicesList.length)];
         // Defines a timeout to async computer's choice
         setTimeout(function(){
+            clearInterval(rollChoices),
+            computerPick.classList.remove("rock", "paper", "scissors"),
             computerPick.classList.add(computerSaid),
             rules.gameRules();
-        }, 1200);
+        }, 3500);
     },
     //* Reboot game
     relaunchGame: function () {
