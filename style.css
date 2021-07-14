@@ -514,7 +514,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   position: absolute;
   top: 0;
   left: -200%;
@@ -524,6 +524,7 @@ main {
 }
 @media screen and (max-width: 376px) {
   .game-result {
+    align-items: flex-start;
     width: 80%;
     height: auto;
   }

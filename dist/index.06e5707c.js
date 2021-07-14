@@ -417,7 +417,8 @@ const app = {
     //* Launch a new game
     launchGame: function(clickedItem) {
         // Retrieves class from player's choice pick
-        playerChoice = clickedItem.path[1].classList[1] ? clickedItem.path[1].classList[1] : clickedItem.path[0].classList[1];
+        console.error(clickedItem);
+        playerChoice = clickedItem.target.classList[1] ? clickedItem.target.classList[1] : clickedItem.target.parentElement.classList[1];
         // Change gameboard by result board
         gameboard.style.left = "-200%";
         gameboard.style.opactity = 0;
