@@ -36,7 +36,6 @@ const app = {
     //* Launch a new game
     launchGame: function (clickedItem) {
         // Retrieves class from player's choice pick
-        console.error(clickedItem);
         playerChoice = clickedItem.target.classList[1] ? clickedItem.target.classList[1] : clickedItem.target.parentElement.classList[1] ;
 
         // Change gameboard by result board
