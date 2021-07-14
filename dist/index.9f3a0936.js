@@ -382,7 +382,7 @@ function hmrAcceptRun(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}]},["gv400"], null, "parcelRequire784c")
-// Retrieves rules button
+//* Retrieves rules button
 const rulesButton = document.querySelector(".rules-button");
 // Defines rules when rules button is click
 const displayRules = function() {
@@ -411,8 +411,8 @@ const displayRules = function() {
         modal.style.animation = "fade-out 0.6s ease-out both";
         document.body.removeChild(modalContainer);
     };
+    // Add listeners on close button
     modalClose.addEventListener("click", closeModal);
-    modalContainer.addEventListener("click", closeModal);
 };
 // Add an event on rules button when is click
 rulesButton.addEventListener("click", displayRules);
