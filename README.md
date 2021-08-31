@@ -2,6 +2,9 @@
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./assets/design/desktop-preview.jpg)
 
+## Lien vers le projet en ligne
+[Jouer à Rock - Paper - Scissors](https://olivierziolkowski.github.io/Rock-Paper-Scissors/)
+
 ## But du challenge
 Ce challenge a pour but de recréer le jeu "pierre, feuille, ciseaux" en application sur le web ! Il est proposé par le site [FrontEnd Mentor](https://www.frontendmentor.io/).
 
@@ -20,6 +23,6 @@ Ce challenge est en cours de réalisation et est un side-project me permettant d
 
 Il est actuellement en cours de réalisation.
 
-## Plus dinfos
+## Plus d'infos
 - [FrontEnd Master - Rock, Paper, Scissors game](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH);
 - [Récap challenge (en anglais)](./FEM-README.md).
